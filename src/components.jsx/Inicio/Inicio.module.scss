@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+        .imgmao {
+            background-color: yellow;
+
+        }
+        
+        .objInicial {
+            display: flex;
+            flex-direction: column;
+            background-color: aqua;
+            text-align: center;
+            padding-top: 30vh;
+            color: #205691;
+            text-align: left;
+            margin-left: 50px;
+            width:40vw;
+
+            h1 {
+                font-size: 4rem;
+                padding-bottom: 10vh;
+                
+            }
+
+            p {
+                font-size: 1.3rem;
+            }
+
+        }
+        
+
