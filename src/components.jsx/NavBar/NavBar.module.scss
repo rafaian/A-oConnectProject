@@ -18,8 +18,26 @@
     }
 
     .imgPerfil {
-        width: 10vh;
+        height: 10vh;
         border-radius: 100%;
         border: solid #00AAFF 5px;
     }
+}
+
+// vai servir para tela de 201px e 500px, se estiver fora desses valores, não vai valer
+@media (min-width: 201px) and (max-width: 500px)    {
+    .navBar{
+        a {font-size: 0.8rem;
+        }
+
+        img {
+            height: 4vh;
+        }
+
+        .imgPerfil {
+            height: 6vh;
+        }
+
+    }
+    
 }

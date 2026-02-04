@@ -17,10 +17,10 @@ export default function NavBar(){
                     <li><Link to='/'> Início </Link></li>
                     <li><Link to='/acoesdaconnect'>Ações da Connect</Link></li>
                     <li><Link to='/quemsomos'>Quem Somos</Link></li>
-                    <li><Link to='/perfil'>Perfil</Link></li>
-                    <img className={styles.imgPerfil} src= {ImgPerfil} alt="Foto perfil," />
+                    {/* <li><Link to='/perfil'>Perfil</Link></li> */}
 
                 </ul>         
+                    <img className={styles.imgPerfil} src= {ImgPerfil} alt="Foto perfil," />
                 
             </nav>
 
@@ -28,7 +28,7 @@ export default function NavBar(){
             <Route path='/' element={<Inicio/>}/>
             <Route path='acoesdaconnect' element={<AcoesDaConnect/>}/>
             <Route path='quemsomos' element={<QuemSomos/>}/>
-            <Route path='perfil' element={<Perfil/>}/>
+            {/* <Route path='perfil' element={<Perfil/>}/> */}
         </Routes>
 
 
