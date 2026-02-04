@@ -3,6 +3,7 @@ import Inicio from "../Inicio/Inicio"
 import AcoesDaConnect from "../AcoesDaConnect/AcoesDaConnect"
 import QuemSomos from "../QuemSomos/QuemSomos"
 import Perfil from "../Perfil/Perfil"
+import styles from './NavBar.module.scss'
 
 import Logo from '../../assets/logo.png'
 import ImgPerfil from '../../assets/Perfil.png'
@@ -10,25 +11,17 @@ import ImgPerfil from '../../assets/Perfil.png'
 export default function NavBar(){
     return(
         <BrowserRouter>
-            <nav>
+            <nav className={styles.navBar}>
                 <Link to='/'><img src={Logo} alt="Logo Ações" /></Link>
                 <ul>
                     <li><Link to='/'> Início </Link></li>
                     <li><Link to='/acoesdaconnect'>Ações da Connect</Link></li>
                     <li><Link to='/quemsomos'>Quem Somos</Link></li>
                     <li><Link to='/perfil'>Perfil</Link></li>
+                    <img className={styles.imgPerfil} src= {ImgPerfil} alt="Foto perfil," />
 
-                </ul>
-
-              
-
+                </ul>         
                 
-                
-               
-
-                <img src= {ImgPerfil} alt="Foto perfil," />
-            
-            
             </nav>
 
         <Routes>

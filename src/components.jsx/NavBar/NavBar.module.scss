@@ -1,0 +1,25 @@
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #205691;
+    height: 15vh;
+    
+    ul {
+        border: solid red;
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+    }
+
+    a {
+        color: #ffffff;
+        font-size: 1.75rem;
+    }
+
+    .imgPerfil {
+        width: 10vh;
+        border-radius: 100%;
+        border: solid #00AAFF 5px;
+    }
+}
