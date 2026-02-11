@@ -1,0 +1,31 @@
+footer {
+    background-color: #205691;
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 13%;
+    }
+
+    p {
+        width: 25%;
+        text-align: center;
+
+    }
+
+    .naveFooter{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        
+        
+    }
+    
+}

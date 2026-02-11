@@ -12,24 +12,33 @@ export default function NavBar(){
     return(
         <BrowserRouter>
             <nav className={styles.navBar}>
-                <Link to='/'><img src={Logo} alt="Logo Ações" /></Link>
+                <Link to='/'>
+                    <img src={Logo} alt="Logo Ações" />
+                </Link>
                 <ul>
-                    <li><Link to='/'> Início </Link></li>
-                    <li><Link to='/acoesdaconnect'>Ações da Connect</Link></li>
-                    <li><Link to='/quemsomos'>Quem Somos</Link></li>
-                    <li><Link to='/perfil'>Perfil</Link></li>
+                    <li>
+                        <Link to='/'> Início </Link>
+                    </li>
+                    <li>
+                        <Link to='/acoesDaConnect'>Ações da Connect</Link>
+                    </li>
+                    <li>
+                        <Link to='/quemSomos'>Quem Somos</Link>
+                    </li>
+                </ul>
 
-                </ul>         
-                    <img className={styles.imgPerfil} src= {ImgPerfil} alt="Foto perfil," />
+                    <Link to='/Perfil'>
+                        <img className={styles.imgPerfil} src= {ImgPerfil} alt="Foto perfil" />
+                    </Link>
                 
             </nav>
 
-        <Routes>
-            <Route path='/' element={<Inicio/>}/>
-            <Route path='acoesdaconnect' element={<AcoesDaConnect/>}/>
-            <Route path='quemsomos' element={<QuemSomos/>}/>
-            <Route path='perfil' element={<Perfil/>}/>
-        </Routes>
+            <Routes>
+                <Route path='/' element={<Inicio/>}/>
+                <Route path='acoesdaconnect' element={<AcoesDaConnect/>}/>
+                <Route path='quemsomos' element={<QuemSomos/>}/>
+                <Route path='perfil' element={<Perfil/>}/>
+            </Routes>
 
 
         </BrowserRouter>

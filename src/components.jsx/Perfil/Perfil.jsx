@@ -16,7 +16,6 @@ export default function Perfil(){
                     <p>São Pualo - SP</p>
                     <p>rafaelserafimx@gmail.com</p>
                     <p>membro desde</p>
-                    <p></p>
 
                 </address>
                     <ul className={styles.listaInteresses}>

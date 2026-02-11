@@ -1,35 +1,31 @@
-section{
-    display: flex;
-    justify-content: space-between;
-    
-}
 
-        .imgmao {
-            background-color: yellow;
 
-        }
-        
-        .div {
+        .containerTelaInicial {
+            // background-color: yellow;
             display: flex;
-            flex-direction: column;
-            background-color: aqua;
-            text-align: center;
-            padding-top: 30vh;
-            color: #205691;
-            text-align: left;
-            margin-left: 50px;
-            width:40vw;
+            align-items: center;
+            justify-content: space-evenly;
+
+            
+            .div {
+                width:40vw;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+                // background-color: aqua;
+                width: 38%;
+                color: #205691;
 
             h1 {
                 font-size: 5.5rem;
-                padding-bottom: 10vh;
                 
             }
 
             p {
-                font-size: 1.3rem;
+                font-size: 1.5rem;
             }
-
+            
         }
+    }
         
 

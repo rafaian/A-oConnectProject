@@ -65,7 +65,8 @@ export default function AcoesDaConnect(){
     return(
         <section className={styles.containerDeAcoes}>
                 <div className={styles.boxTituloAcoes}>
-                    <h1>Eu sou a Ações</h1>
+                    <h1>Ações da Connect</h1>
+                    <h2>Junte-se a quem acredita na mudança. Apoie, participe e transforme vidas através de ações sociais que geram impacto real nas comunidades.</h2>
                 </div>
         <section className={styles.containerCardsDeAcoes}>
 
