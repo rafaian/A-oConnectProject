@@ -1,4 +1,4 @@
-import perfilo from '../../assets/perfilO.png'
+import perfilo from '../../assets/perfilo.png'
 import styles from './Perfil.module.scss'
 
 export default function Perfil(){
